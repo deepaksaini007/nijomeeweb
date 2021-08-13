@@ -1,0 +1,83 @@
+<div class="container-fluid padding-all hover-effect blog_section" >
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="filter-section text-center">
+        <a  [ngClass]="{'btn active':currentBoard==AllBlogTypes.All,'btn':currentBoard!=AllBlogTypes.All}" (click)="changeBoard(AllBlogTypes.All)"  >All</a>
+        <a  [ngClass]="{'btn active':currentBoard==AllBlogTypes.App,'btn ':currentBoard!=AllBlogTypes.App}" (click)="changeBoard(AllBlogTypes.App)"  >App Development</a>
+        <a  [ngClass]="{'btn active':currentBoard==AllBlogTypes.Web,'btn ':currentBoard!=AllBlogTypes.Web}" (click)="changeBoard(AllBlogTypes.Web)"  >Web Development</a>
+        <a  [ngClass]="{'btn active':currentBoard==AllBlogTypes.Digital,'btn ':currentBoard!=AllBlogTypes.Digital}" (click)="changeBoard(AllBlogTypes.Digital)"  >Digital Marketing</a>
+        <a  [ngClass]="{'btn active':currentBoard==AllBlogTypes.other,'btn ':currentBoard!=AllBlogTypes.other}" (click)="changeBoard(AllBlogTypes.other)"  > Other</a>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="row">
+            <div *ngIf="blogDatas && blogDatas.length <= 0">
+              <div class="no-data-found">
+                <img src="assets/blog/blog.jpg" alt="">
+              </div>
+            </div>
+            <div *ngFor="let blog of blogDatas" class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <article class="blog-post">
+                <div class="blog-min">
+                  <img src={{blog.image_url}} alt="Nijomee Blog"
+                    title={{blog.heading}} />
+                </div>
+                <div class="blog-post-content">
+                  <ul class="post-meta">
+                    <li>
+                      <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i>By: {{blog.author}}</a>
+                    </li>
+                    <li style="margin-left: 10px;">
+                      <div class="item date">
+                        <span style="margin-left: 10px;">
+                          <img src="assets/calender.png" width="20" />{{blog.date}}</span>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <h3 class="entry-title"><a href="#">{{blog.heading}}</a></h3>
+                  <div class="post-content">
+                    <p>
+                      {{blog.short_description}}
+                    </p>
+                  </div>
+                </div>
+                <a class="text-right learn-btn" [routerLink]="['/nijomee-blogs/',blog.url]">Read More</a>
+
+              </article>
+            </div>
+
+            <!-- <div [ngSwitch]="selectedValue">
+              <div *ngSwitchCase="1">
+
+                <app-other-blog></app-other-blog>
+              </div>
+              <div *ngSwitchCase="2">
+                <app-app-blog></app-app-blog>
+              </div>
+              <div *ngSwitchCase="3">
+                <app-web-blog></app-web-blog>
+              </div>
+              <div *ngSwitchCase="4">
+                <app-digital-blog></app-digital-blog>
+              </div>
+              <div *ngSwitchCase="5">
+                <app-other-blog></app-other-blog>
+              </div>
+            </div> -->
+          </div>
+          <div class="row">
+
+
+          </div>
+        </div>
+        <div class="col-md-4">
+         <app-side-blog></app-side-blog>
+          <!-- #secondary -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<app-quotation></app-quotation>

@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="container-fluid space-top padding-l-r-30 hover-effect">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-xl-12">
+        <div class="about-heading">
+          <h2 class="text-center">Welcome to Nijomee Technology</h2>
+          <p class="badge badge-primary">More About Us</p>
+        </div>
+        <p class="text-center">
+          Nijomee Technologies Private Limited is a best web and app development services company in
+          rohtak-haryana-India. As a top software development companay we exclusively works on the domain like best
+          fleet management solutions, best astrology solutions, best E-commerce solution, best lifestyle solutions, best
+          billing software solution, best audit mobile app solutions, best educational solutions, best CRM development
+          company. With our best Web Development, best Android App Development, best Ios App development, Digital
+          Marketing, and tailor-made custom best software development services we stand as best web and mobile app
+          development company in rohtak-haryana-india at enterprise level.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid main hero">
+  <div class="services-listing col-md-12 col-sm-12">
+
+    <button type="button" class="btn col-sm-4 col-md-4" (click)="filterMobile()">
+      <p class="mobile-app">
+        <img src="https://www.nijomee.com/images/mobile-new.png" alt="Mobile Applications"
+          title="Mobile Applications" />
+      </p>
+      <p>Mobile App</p>
+    </button>
+    <button type="button" class="btn col-sm-4 col-md-4" (click)="filterWebsite()">
+      <p class="website-app">
+        <img src="https://www.nijomee.com/images/globe-n.png" alt="website-app" title="website-app" />
+      </p>
+      <p>Website</p>
+    </button>
+    <button type="button" class="btn col-sm-4 col-md-4" (click)="filterWebApp()">
+      <p class="web-app">
+        <img src="https://www.nijomee.com/images/website.png" alt="web-app" title="web-app" />
+      </p>
+      <p>Web App</p>
+    </button>
+
+  </div>
+  <div [ngSwitch]="selectedValue">
+    <div *ngSwitchCase="1">
+      <app-mobile-portfolio></app-mobile-portfolio>
+    </div>
+    <div *ngSwitchCase="2">
+      <app-website-portfolio></app-website-portfolio>
+    </div>
+    <div *ngSwitchCase="3">
+      <app-webapp-portfolio></app-webapp-portfolio>
+    </div>
+  </div>
+
+</div>
+
+<app-query-form></app-query-form>

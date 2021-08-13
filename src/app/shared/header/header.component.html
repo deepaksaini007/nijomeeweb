@@ -1,0 +1,131 @@
+<div class="navigation mCustomScrollbar wow fadeIn">
+  <button class="close-menu">
+      <i class="fas fa-times"></i>
+  </button>
+  <div class="overall">
+      <ul class="hamburger-navi wow bounceInDown">
+          <li>
+              <a routerLink="/index">Home</a>
+          </li>
+          <li>
+              <a routerLink="/about-us">About Us</a>
+          </li>
+
+          <li class="submenu_wrap">
+              <a routerLink="/services">Services</a>
+              <ul class="hamburger-submenu">
+                  <li><a routerLink="/services">Web Design</a></li>
+                  <li><a routerLink="/services">Web Developer</a></li>
+                  <li><a routerLink="/services">Mobile Application</a></li>
+                  <li><a routerLink="/services">SEO</a></li>
+              </ul>
+          </li>
+
+          <li>
+              <a routerLink="/portfolio">Portfolio</a>
+          </li>
+          <li>
+              <a routerLink="/clients">Clients</a>
+          </li>
+          <li>
+              <a routerLink="/team">Team</a>
+          </li>
+           <li>
+              <a routerLink="/blog">Blogs</a>
+          </li>
+          <li>
+              <a routerLink="/career">Career</a>
+          </li>
+
+          <li>
+              <a routerLink="/contact">Contact Us</a>
+          </li>
+      </ul>
+      <div class="things-we-made">
+          <p>Things we've made</p>
+      </div>
+      <div class="d-flex">
+      </div>
+  </div>
+</div>
+<div class="overlay"></div>
+<header class="inner-header-small" [ngClass]="{'header1':newheader,'header':!newheader}">
+
+  <!-- Image and text -->
+  <!-- <div class="sidebar sidebar-responsive">
+      <ul class="social-medias">
+          <li><a routerLink="https://www.facebook.com/nijomee/"><i class="fa fa-facebook-f"></i></a></li>
+          <li><a routerLink="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a routerLink="https://www.linkedin.com/company/nijomee/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/nijomeetechnologies/"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+      <span class="follow-us">FOLLOW US:</span>
+  </div> -->
+
+  <div class="container-fluid top-menubar-wrap">
+      <nav class="top-menubar navbar navbar-expand-md">
+          <div id="mySidepanel" class="sidepanel" [ngClass]="isMenuOpen?'open':'close'">
+              <a routerLink="javascript:void(0)" class="closebtn" (click)="isMenuOpen=!isMenuOpen" >&times;</a>
+              <a routerLink="/index">Home</a>
+              <a routerLink="/about-us">About Us</a>
+              <a routerLink="/services">Services</a>
+              <a routerLink="/portfolio">Portfolio</a>
+              <a routerLink="/team">Team</a>
+              <a routerLink="/career">Career</a>
+              <a routerLink="/clients">Clients</a>
+              <a routerLink="/contact">Contact us</a>
+          </div>
+          <span class="openbtn sticky-top" (click)="isMenuOpen=!isMenuOpen" ><i class="fas fa-bars"></i></span>
+
+          <a class="navbar-brand" routerLink="/index">
+              <img src="/assets/nijomee-logo.png" alt="nijomee-logo" title="Nijomee Technology" /></a>
+
+          <div class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                  <li routerLinkActive="nav-item active" >
+                      <a class="nav-link" routerLink="/index">Home</a>
+                  </li>
+
+                  <li routerLinkActive="nav-item active">
+                      <a class="nav-link" routerLink="/about-us">About Us</a>
+                  </li>
+
+                  <li routerLinkActive="nav-item active">
+                      <a class="nav-link" routerLink="/services">Services</a>
+                      <ul class="hamburger-submenu">
+                          <li><a routerLink="/web-development">Web Development</a></li>
+                          <li><a routerLink="/cms-development">CMS Development</a></li>
+                          <li><a routerLink="/mobile-development">Mobile Development</a></li>
+                          <li><a routerLink="/software-development">Software Development</a></li>
+                          <li><a routerLink="/iot-development">ioT Development</a></li>
+                      </ul>
+                  </li>
+                  <li routerLinkActive="nav-item active" >
+                      <a class="nav-link"  routerLink="/portfolio">Portfolio</a>
+                  </li>
+
+                  <li routerLinkActive="nav-item active" >
+                      <a class="nav-link"  routerLink="/clients">Clients</a>
+                  </li>
+
+                  <li  routerLinkActive="nav-item active">
+                      <a class="nav-link"  routerLink="/contact">Contact</a>
+                  </li>
+
+
+              </ul>
+          </div>
+      </nav>
+  </div>
+
+  <div class="container-fluid innerpg-top-sec padding-l-r-30 hover-effect">
+    <div class="row">
+        <marquee class="large-heading" direction="left" scrollamount="5" loop="infinite">{{currentScroll}}</marquee>
+        <div [ngClass]="{'hi':newheader,'hdng-pg':!newheader}">
+            <h1 class="middle-font">{{currentHeading}} </h1>
+            <p class="text-white x-small-hdng-carousel">{{currentMessage}} </p>
+        </div>
+
+    </div>
+  </div>
+</header>

@@ -1,0 +1,21 @@
+.footer-line {
+  width: 100%;
+  height: auto;
+  background: #ffe867;
+  padding-top: 20px;
+}
+.sub-footer {
+  float: right;
+}
+.sub-footer li {
+  display: inline-block;
+}
+.sub-footer li a {
+  color: #303030;
+}
+.sprite {display: inline-block; vertical-align: middle;}
+.sprite {background-image: url(/assets/foter.png); background-position: left center; background-repeat: no-repeat;}
+.sprite.iso_jpg {background-position: 0 0; width: 150px; height: 150px;}
+.sprite.startupindia_jpg {background-position: 0 -155px; width: 300px; height: 67px;}
+.sprite.certified_partner_ce70c676cc844c678e8a6e7e373e6c0d_png {background-position: 0 -227px; width: 149px; height: 141px;}
+
