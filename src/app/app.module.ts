@@ -65,14 +65,13 @@ import { BrandwingsComponent } from './core/component/brandwings/brandwings.comp
 import { RatiramchanderComponent } from './core/component/ratiramchander/ratiramchander.component';
 import { AuditassistComponent } from './core/component/auditassist/auditassist.component';
 
-import { WebBlogComponent } from './core/component/web-blog/web-blog.component';
-
 import { NijomeeBlogComponent } from './core/component/nijomee-blog/nijomee-blog.component';
 import { SideBlogComponent } from './core/component/side-blog/side-blog.component';
 import { HallBookComponent } from './core/component/hall-book/hall-book.component';
 import { FlyzerComponent } from './core/component/flyzer/flyzer.component';
 import { PaisarupeeComponent } from './core/component/paisarupee/paisarupee.component';
 import { CricteamComponent } from './core/component/cricteam/cricteam.component';
+import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
 
 @NgModule({
   declarations: [
@@ -120,13 +119,14 @@ import { CricteamComponent } from './core/component/cricteam/cricteam.component'
     BrandwingsComponent,
     RatiramchanderComponent,
     AuditassistComponent,
-    WebBlogComponent,
+
     NijomeeBlogComponent,
     SideBlogComponent,
     HallBookComponent,
     FlyzerComponent,
     PaisarupeeComponent,
     CricteamComponent,
+    UiUxComponent,
 
   ],
   imports: [

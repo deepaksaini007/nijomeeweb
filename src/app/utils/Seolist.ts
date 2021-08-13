@@ -257,7 +257,7 @@ export const MetaList : MetaDetails[]=[
     metafor:'book-my-place',
     keyword:'appointment booking app, online banquet booking app, online marriage hall booking application, marriage place booking app, banquet management solution, online hall booking app, hall booking app Canada, banquet hall booking app Rohtak',
     description:'An online banquet booking application platform specially designed for banquet owners. Book My place is a complete marriage place booking and management solution, helps to reduce manual efforts.',
-    title:' - Nijomee Technologies'
+    title:'Book My Place - Nijomee Technologies'
    },
 ]
 

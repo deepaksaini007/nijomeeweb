@@ -19,6 +19,7 @@ export class HeaderComponent implements OnInit {
   description!: string
   keyword!: string
   title!: string
+  styleExp:string="#3abfff";
 
   constructor(private router: Router,
     private titleService: Title,
@@ -103,6 +104,11 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = message.SoftwareDevHeader
           this.currentMessage = message.SoftWareDevMessage
         }
+        if (url.toString().includes('uiux-designer')) {
+          this.currentScroll = message.serviceScroll
+          this.currentHeading = message.UIUXHeader
+          this.currentMessage = message.UIUXMessage
+        }
         if (url.toString().includes('cloud-computing')) {
           this.currentScroll = message.serviceScroll
           this.currentHeading = message.CloudDevHeader
@@ -132,76 +138,91 @@ export class HeaderComponent implements OnInit {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.EvergreenHeader
           this.currentMessage = message.EvergreenMessage
+          this.styleExp=message.EvergreenstyleExp
         }
         if (url.toString().includes('style-house')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.StyleHouseHeader
           this.currentMessage = message.StyleHouseMessage
+          this.styleExp=message.StyleHousestyleExp
         }
         if (url.toString().includes('sky-live')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.skyLiveHeader
           this.currentMessage = message.skyLiveMessage
+          this.styleExp=message.skyLivestyleExp
         }
         if (url.toString().includes('flyzer')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.FlyzerHeader
           this.currentMessage = message.FlyzerMessage
+          this.styleExp=message.FlyzerstyleExp
         }
         if (url.toString().includes('tarot-read')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.TarotReadHeader
           this.currentMessage = message.TarotReadMessage
+          this.styleExp=message.TarotReadstyleExp
         }
         if (url.toString().includes('tarot-teller')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.TarotTellerTHeader
           this.currentMessage = message.TarotTellerMessage
+          this.styleExp=message.TarotTellerstyleExp
         }
         if (url.toString().includes('free-horo')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.FreeHoroHeader
           this.currentMessage = message.FreeHoroMessage
+          this.styleExp=message.FreeHorostyleExp
         }
         if (url.toString().includes('loanpemoney')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.LoanHeader
           this.currentMessage = message.LoanMessage
+          this.styleExp=message.LoanstyleExp;
         }
         if (url.toString().includes('paisarupee')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.PaisaHeader
           this.currentMessage = message.PaisaMessage
+          this.styleExp=message.PaisastyleExp;
         }
         if (url.toString().includes('dreamteam')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.DreamHeader
           this.currentMessage = message.DreamMessage
+          this.styleExp=message.DreamstyleExp;
         }
         if (url.toString().includes('cricteam')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.CricHeader
           this.currentMessage = message.CricMessage
+          this.styleExp=message.CricstyleExp;
         }
         if (url.toString().includes('audit-assist')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.AuditHeader
           this.currentMessage = message.AuditMessage
+          this.styleExp=message.AuditstyleExp;
         }
         if (url.toString().includes('brandwings')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.BrandWingsHeader
           this.currentMessage = message.BrandWingsMessage
+          this.styleExp=message.BrandWingsstyleExp;
         }
         if (url.toString().includes('book-my-place')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.HallHeader
           this.currentMessage = message.HallMessage
+          this.styleExp=message.HallstyleExp
         }
         if (url.toString().includes('ratiramchander')) {
           this.currentScroll = message.portfolioScroll
           this.currentHeading = message.RatiRamHeader
           this.currentMessage = message.RatiRamMessage
+          this.styleExp = message.RatiRamstyleExp
         }
         if (url.toString().includes('blogs')) {
           this.currentScroll = message.BlogScroll

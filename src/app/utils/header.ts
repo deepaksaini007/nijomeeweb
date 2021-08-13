@@ -33,9 +33,11 @@ export const message =
   Scroll: "Smart . Simple . Effective ",
   Header: "Smart . Simple . Effective ",
   Message: "We craft amazing experiences ",
+  UIUXHeader: "UI UX  Design ",
+  UIUXMessage: "Custom Web solutions with optimal performance and effortless user Experience.",
 
-  WebDevHeader: "Web Design & Development",
-  WebDevMessage: "Web Design & Development Company in Rohtak, India | Nijomee Technologies",
+  WebDevHeader: "Edge-to-Edge Enterprise level Web Application Development ",
+  WebDevMessage: "Custom Web solutions with optimal performance and effortless user Experience.",
 
   MobileDevHeader: "Robust & scalable Android app solutions",
   MobileDevMessage: "Egnite the power of speed & reliability. Introducing you rich Andriod mobile app solutions",
@@ -63,50 +65,65 @@ export const message =
 
   EvergreenHeader: "EvergreenKart",
   EvergreenMessage: "",
-
+  EvergreenstyleExp:"#76c10d",
 
   StyleHouseHeader: "Style House",
   StyleHouseMessage: "",
-
+  StyleHousestyleExp:"#81aed1",
 
   TarotTellerTHeader: "Tarot Teller",
   TarotTellerMessage: "",
+  TarotTellerstyleExp:"#8f3785",
 
   TarotReadHeader: "Tarot Reading",
   TarotReadMessage: "",
+  TarotReadstyleExp:"#1956bd",
 
   FreeHoroHeader: "Free Horoscope",
   FreeHoroMessage: "",
+  FreeHorostyleExp:"#591f74 ",
 
   skyLiveHeader:'Sky Live',
   skyLiveMessage:'',
+  skyLivestyleExp:"#00b3fd ",
 
   FlyzerHeader:'Flyzer',
   FlyzerMessage:'',
+  FlyzerstyleExp:"#1ea8e4 ",
 
   LoanHeader: "Loan pe Money",
   LoanMessage: "",
+  LoanstyleExp:"#0A79A3 ",
 
   HallHeader: "Book my Place",
   HallMessage: "",
+  HallstyleExp:"#cce6fe ",
+
   PaisaHeader: "Paisa Rupee",
   PaisaMessage: "",
+  PaisastyleExp:"#71407F",
 
   DreamHeader: "Dream Team 11",
   DreamMessage: "",
+  DreamstyleExp:"#DA1D29 ",
 
 
   CricHeader: "Cric Team 11",
   CricMessage: "",
+  CricstyleExp:"#DA1D29 ",
 
   BrandWingsHeader: "Brand Wings",
   BrandWingsMessage: "",
+  BrandWingsstyleExp:"#71407F ",
+
 
   AuditHeader: "Audit Assets",
   AuditMessage: "",
+  AuditstyleExp:"#5285D6 ",
 
   RatiRamHeader: "Rati Ram Chander",
   RatiRamMessage: "",
+  RatiRamstyleExp:"#142134 ",
 
   termScroll: "Terms & Conditions",
   termHeader: "Terms & Conditions",

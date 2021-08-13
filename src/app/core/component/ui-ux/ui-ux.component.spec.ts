@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WebBlogComponent } from './web-blog.component';
+import { UiUxComponent } from './ui-ux.component';
 
-describe('WebBlogComponent', () => {
-  let component: WebBlogComponent;
-  let fixture: ComponentFixture<WebBlogComponent>;
+describe('UiUxComponent', () => {
+  let component: UiUxComponent;
+  let fixture: ComponentFixture<UiUxComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WebBlogComponent ]
+      declarations: [ UiUxComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WebBlogComponent);
+    fixture = TestBed.createComponent(UiUxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

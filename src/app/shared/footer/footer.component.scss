@@ -18,4 +18,26 @@
 .sprite.iso_jpg {background-position: 0 0; width: 150px; height: 150px;}
 .sprite.startupindia_jpg {background-position: 0 -155px; width: 300px; height: 67px;}
 .sprite.certified_partner_ce70c676cc844c678e8a6e7e373e6c0d_png {background-position: 0 -227px; width: 149px; height: 141px;}
+.social-links
+{
+  margin-top: 2rem;
+}
+.social-links i
+{
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 10px;
 
+  border-radius: 4px;
+}
+
+.social-links i:hover
+{
+  background-color:#009eff;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-right: 10px;
+
+  border-radius: 4px;
+}

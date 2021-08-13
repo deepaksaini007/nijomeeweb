@@ -49,7 +49,7 @@
   </div>
 </div>
 <div class="overlay"></div>
-<header class="inner-header-small" [ngClass]="{'header1':newheader,'header':!newheader}">
+<header class="inner-header-small"  [ngStyle]="{'background-color': styleExp}" [ngClass]="{'header1':newheader,'header':!newheader}">
 
   <!-- Image and text -->
   <!-- <div class="sidebar sidebar-responsive">
@@ -118,7 +118,7 @@
       </nav>
   </div>
 
-  <div class="container-fluid innerpg-top-sec padding-l-r-30 hover-effect">
+  <div class="container-fluid innerpg-top-sec padding-l-r-30 hover-effect" >
     <div class="row">
         <marquee class="large-heading" direction="left" scrollamount="5" loop="infinite">{{currentScroll}}</marquee>
         <div [ngClass]="{'hi':newheader,'hdng-pg':!newheader}">

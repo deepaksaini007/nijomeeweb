@@ -45,6 +45,7 @@ import { TeamComponent } from './core/component/team/team.component';
 import { TermConditionComponent } from './core/component/term-condition/term-condition.component';
 
 import { TrainingComponent } from './core/component/training/training.component';
+import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
 import { WebDevelopmentComponent } from './core/component/web-development/web-development.component';
 import { ErrorComponent } from './shared/error/error.component';
 import { blogTitle } from './utils/blogs';
@@ -174,6 +175,23 @@ const routes: Routes = [
     path:"iot-development",
     component:IotDevelopmentComponent
   },
+  {
+    path:"uiux-designer",
+    component:UiUxComponent
+  },
+  //Designer Development
+...allCities.map(e=>({
+  path:`uiux-designer-company-in-${e}`,
+  component:UiUxComponent
+})),
+...allCities.map(e=>({
+  path:`top-uiux-designer-company-in-${e}`,
+  component:UiUxComponent
+})),
+...allCities.map(e=>({
+  path:`best-uiux-designer-company-in-${e}`,
+  component:UiUxComponent
+})),
 //IOt Development
 ...allCities.map(e=>({
   path:`iot-development-company-in-${e}`,
@@ -445,6 +463,10 @@ const routes: Routes = [
 {
   path:"paisarupee",
   component:PaisarupeeComponent
+},
+{
+  path:"ratiramchander",
+  component:RatiramchanderComponent
 },
 {
   path:"**",
