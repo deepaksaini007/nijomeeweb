@@ -73,6 +73,7 @@ import { PaisarupeeComponent } from './core/component/paisarupee/paisarupee.comp
 import { CricteamComponent } from './core/component/cricteam/cricteam.component';
 import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -127,6 +128,7 @@ import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
     PaisarupeeComponent,
     CricteamComponent,
     UiUxComponent,
+
 
   ],
   imports: [

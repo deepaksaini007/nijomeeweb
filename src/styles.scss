@@ -5371,7 +5371,20 @@ margin-left: auto !important;
   width:120px;
   height:120px;
 }
-.icon-text h1{
+.icon-text h2{
   font-size:2.5rem;
   color:#3abfff;
+}
+.bg-gray
+{
+  background: url(/assets/service/infographics/abstract.png);
+  //background-color: #dfdfdf1c;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.abstract-section img{
+  width:100%;
+  max-width:800px;
+
 }
