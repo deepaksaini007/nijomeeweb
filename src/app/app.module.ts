@@ -145,7 +145,6 @@ import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
     MatSelectModule,
     MatIconModule,
     MatCheckboxModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
