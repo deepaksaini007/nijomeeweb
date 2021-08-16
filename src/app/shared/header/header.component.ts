@@ -102,6 +102,12 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = message.CMSDevHeader
           this.currentMessage = message.CMSDevMessage
         }
+        if (url.toString().includes('astro-bazar')) {
+          this.currentScroll = message.portfolioScroll
+          this.currentHeading = message.AstroHeader
+          this.currentMessage = message.AstroMessage
+          this.styleExp = message.AstrostyleExp
+        }
         if (url.toString().includes('software-development')) {
           this.currentScroll = message.serviceScroll
           this.currentHeading = message.SoftwareDevHeader
@@ -277,9 +283,7 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = "Web Designer"
           this.currentMessage = message.careerInnerMessage
         }
-        console.log(this.metaData )
-        console.log("url"+url )
-        console.log(this.newheader )
+
       //Set Meta Data
         this.titleService.setTitle(this.title);
 

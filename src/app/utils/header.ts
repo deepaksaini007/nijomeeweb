@@ -62,6 +62,9 @@ export const message =
   privacyHeader: "Privacy Policy",
   privacyMessage: "",
 
+  AstroHeader: "Astro Bazar",
+  AstroMessage: "",
+  AstrostyleExp:"ee8722 ",
 
   EvergreenHeader: "EvergreenKart",
   EvergreenMessage: "",

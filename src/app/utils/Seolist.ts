@@ -23,12 +23,18 @@ export const MetaList : MetaDetails[]=[
    description:'Best software, web and mobile app development company in rohtak-haryana providing best web and mobile app development services in rohtak-haryana and overseas. We provide top and best android app development services and IOS app development services. We have our expertise in delivering customized best mobile application and best web application development services.',
    title:'Professional Web Development, Software Development, Android &amp; iOS App Development Company Rohtak, Haryana - Nijomee Technologies'
   },
-
   {
     metafor:'clients',
     keyword:'Best app development company in Rohtak, best software and mobile app development services, Best app development companies in Rohtak, Best web development services in rohtak, best software services company in rohtak, best software services companies in rohtak, best mobile app development company in rohtak, top app development companies in haryana, top web development company in haryana, best software development services in Rohtak , best software development services in Haryana.',
     description:'Best software, web and mobile app development company in rohtak-haryana providing best web and mobile app development services in rohtak-haryana and overseas. We provide top and best android app development services and IOS app development services. We have our expertise in delivering customized best mobile application and best web application development services.',
     title:'Clients - Nijomee Technologies'
+   },
+  {
+    metafor:'uiux-designer',
+      keyword:'ui ux design companies,ui ux design companies in rohtak, ui ux design company, ui ux design agencies, ux design company, ui ux design agencies in rohtak ',
+      description:'Nijomee Technologies is hiring for UI/UX Designers in Rohtak – Haryana with exp of 1 – 3 yrs. We are hiring for creative web and app designers who challenge to learn and grow into their career of UIUX Designer. Apply NOW !!!',
+      title:'UI UX Designer - Nijomee Technologies'
+
    },
    {
     metafor:'team',
@@ -219,7 +225,7 @@ export const MetaList : MetaDetails[]=[
    },
    {
     metafor:'cricteam',
-    keyword:'Popular, famous, ulimate, best gaming app, sports application, great gaming platform, cric team',
+    keyword:'cricketer indian, indian cricket team, indian cricket team players, cricket players, teams cricket, indian cricket team captain',
     description:'Ultimate Indian sport playing application with more than 5 million active user count. Most popular game playing application where use can paly multiple games. A great gaming platform to get all latest sports related news and stories ',
     title:'Cric Team 11 - Nijomee Technologies'
    },
