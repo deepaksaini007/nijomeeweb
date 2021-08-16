@@ -11,14 +11,15 @@ import { MetaDetails, MetaList } from 'src/app/utils/Seolist';
 })
 export class HeaderComponent implements OnInit {
   isMenuOpen: boolean = false;
-  newheader: boolean = false;
+  newheader: boolean = true;
   currentHeading: string = message.Header;
   currentMessage: string = message.Message;
   currentScroll: string = message.Scroll;
   metaData: MetaDetails[] = [];
-  description!: string
-  keyword!: string
-  title!: string
+  keyword: string='Best app development company in rohtak, best software and mobile app development services, Best app development companies in rohtak, Best web development services in rohtak, best software services company in rohtak, best software services companies in rohtak, best mobile app development company in rohtak,top app development company in rohtak.top app development services in haryana,best software developmnet services in rohtak , best software development services in haryana.'
+  title:string='App & Web Development Company - Nijomee Technologies'
+  description: string='Nijomee is providing the best app and web development services PAN India. Top app development expertise dealing in android, ios, and hybrid app platforms.'
+
   styleExp:string="#3abfff";
 
   constructor(private router: Router,
@@ -31,11 +32,13 @@ export class HeaderComponent implements OnInit {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd && event.url) {
         const url = event.url;
-        this.newheader = false;
+
         let metaURL = url.replace('/', '');
         this.metaData = MetaList.filter(p => p.metafor == metaURL);
 
         for (let meta of this.metaData) {
+          this.newheader = false;
+
           this.keyword = Object.values(meta)[1];
           this.description = Object.values(meta)[2];
           this.title = Object.values(meta)[3];
@@ -274,6 +277,9 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = "Web Designer"
           this.currentMessage = message.careerInnerMessage
         }
+        console.log(this.metaData )
+        console.log("url"+url )
+        console.log(this.newheader )
       //Set Meta Data
         this.titleService.setTitle(this.title);
 

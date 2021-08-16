@@ -4,6 +4,7 @@ export const allCities=
 ]
 
 export const MetaList : MetaDetails[]=[
+
   {
     metafor:'index',
    keyword:'Best app development company in rohtak, best software and mobile app development services, Best app development companies in rohtak, Best web development services in rohtak, best software services company in rohtak, best software services companies in rohtak, best mobile app development company in rohtak,top app development company in rohtak.top app development services in haryana,best software developmnet services in rohtak , best software development services in haryana.',
