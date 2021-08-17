@@ -62,9 +62,13 @@ export const message =
   privacyHeader: "Privacy Policy",
   privacyMessage: "",
 
+  MoneyHeader: "Money Reel",
+  MoneyMessage: "",
+  MoneystyleExp:"#009EFF",
+
   AstroHeader: "Astro Bazar",
   AstroMessage: "",
-  AstrostyleExp:"ee8722 ",
+  AstrostyleExp:"#ee8722 ",
 
   EvergreenHeader: "EvergreenKart",
   EvergreenMessage: "",

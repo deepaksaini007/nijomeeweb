@@ -113,6 +113,11 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = message.SoftwareDevHeader
           this.currentMessage = message.SoftWareDevMessage
         }
+        if (url.toString().includes('moneyreel')) {
+          this.currentScroll = message.portfolioScroll
+          this.currentHeading = message.MoneyHeader
+          this.currentMessage = message.MoneyMessage
+        }
         if (url.toString().includes('uiux-designer')) {
           this.currentScroll = message.serviceScroll
           this.currentHeading = message.UIUXHeader

@@ -194,6 +194,12 @@ export const MetaList : MetaDetails[]=[
     title:'Tarot Read - Nijomee Technologies'
    },
    {
+    metafor:'moneyreel',
+    keyword:'money reel, real money slots, moneyreels, money real long, ',
+    description:'',
+    title:'Money Reel - Nijomee Technologies'
+   },
+   {
     metafor:'tarot-teller',
     keyword:'free tarot reading career,free tarot reading love,free tarot reading daily,card reading,free tarot card reading,tarot,free tarot card readings, tarot cards reading free,tarot cards reader,reading tarot',
     description:'free online tarot reading mobile application where a user get real life tarot card reading experience. Tarot reading mobile app has multiple features like daily tarot, love tarot, one card reading, experts corner where you can ask any question from our experts.',

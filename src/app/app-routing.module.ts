@@ -24,6 +24,7 @@ import { IotDevelopmentComponent } from './core/component/iot/iot-development.co
 import { JobDetailComponent } from './core/component/job-detail/job-detail.component';
 import { LoanpemoneyComponent } from './core/component/loanpemoney/loanpemoney.component';
 import { MobileDevelopmentComponent } from './core/component/mobile-development/mobile-development.component';
+import { MoneyReelComponent } from './core/component/money-reel/money-reel.component';
 import { NijomeeBlogComponent } from './core/component/nijomee-blog/nijomee-blog.component';
 import { PaisarupeeComponent } from './core/component/paisarupee/paisarupee.component';
 
@@ -469,6 +470,10 @@ const routes: Routes = [
   component:RatiramchanderComponent
 },
 {
+  path:"moneyreel",
+  component:MoneyReelComponent
+},
+{
   path:"**",
   component:ErrorComponent
 },
@@ -476,7 +481,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes,{
-    scrollPositionRestoration: 'enabled' 
+    scrollPositionRestoration: 'enabled'
   })],
   exports: [RouterModule]
 })

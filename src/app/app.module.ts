@@ -72,6 +72,8 @@ import { FlyzerComponent } from './core/component/flyzer/flyzer.component';
 import { PaisarupeeComponent } from './core/component/paisarupee/paisarupee.component';
 import { CricteamComponent } from './core/component/cricteam/cricteam.component';
 import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
+import { SitemapComponent } from './core/component/sitemap/sitemap.component';
+import { MoneyReelComponent } from './core/component/money-reel/money-reel.component';
 
 
 @NgModule({
@@ -128,6 +130,8 @@ import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
     PaisarupeeComponent,
     CricteamComponent,
     UiUxComponent,
+    SitemapComponent,
+    MoneyReelComponent,
 
 
   ],
