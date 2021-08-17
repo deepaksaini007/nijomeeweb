@@ -97,6 +97,11 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = message.MobileDevHeader
           this.currentMessage = message.MobileDevMessage
         }
+        if (url.toString().includes('ios-development')) {
+          this.currentScroll = message.serviceScroll
+          this.currentHeading = message.IOsDevHeader
+          this.currentMessage = message.IOsDevHeader
+        }
         if (url.toString().includes('cms-development')) {
           this.currentScroll = message.serviceScroll
           this.currentHeading = message.CMSDevHeader

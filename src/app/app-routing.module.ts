@@ -35,6 +35,7 @@ import { RatiramchanderComponent } from './core/component/ratiramchander/ratiram
 import { RegistrationComponent } from './core/component/registration/registration.component';
 
 import { ServicesComponent } from './core/component/services/services.component';
+import { SitemapComponent } from './core/component/sitemap/sitemap.component';
 import { SkyLiveComponent } from './core/component/sky-live/sky-live.component';
 import { SoftwareDevelopmentComponent } from './core/component/software-development/software-development.component';
 import { StylehouseComponent } from './core/component/stylehouse/stylehouse.component';
@@ -48,6 +49,8 @@ import { TermConditionComponent } from './core/component/term-condition/term-con
 import { TrainingComponent } from './core/component/training/training.component';
 import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
 import { WebDevelopmentComponent } from './core/component/web-development/web-development.component';
+import { DevopsComponent } from './devops/devops.component';
+import { IosDevelopmentComponent } from './ios-development/ios-development.component';
 import { ErrorComponent } from './shared/error/error.component';
 import { blogTitle } from './utils/blogs';
 import { jobDetails } from './utils/job-details';
@@ -55,7 +58,6 @@ import { jobDetails } from './utils/job-details';
 import { allCities } from './utils/Seolist';
 
 const routes: Routes = [
-
   {
     path:"",
     component:IndexComponent
@@ -68,12 +70,10 @@ const routes: Routes = [
     path:"about-us",
     component:AboutUsComponent
   },
-
   {
     path:"blogs",
     component:BlogComponent
   },
-
   ...blogTitle.map(e=>({
     path:`nijomee-blogs/${e}`,
     component:NijomeeBlogComponent,
@@ -85,20 +85,10 @@ const routes: Routes = [
   ...jobDetails.map(e=>({
     path:`job-details-${e}`,
     component:JobDetailComponent,
-
   })),
-
   {
     path:"cloud-computing",
     component:CloudComputingComponent
-  },
-  {
-    path:"cloud-computing",
-    component:CloudComputingComponent
-  },
-  {
-    path:"client-case-study",
-    component:ClientCaseStudyComponent
   },
   {
     path:"cms-development",
@@ -108,7 +98,6 @@ const routes: Routes = [
     path:"contact",
     component:ContactUsComponent
   },
-
   {
     path:"clients",
     component:ClientComponent
@@ -121,13 +110,18 @@ const routes: Routes = [
     path:"digital-marketing",
     component:DigitalMarketingComponent
   },
-
   {
     path:"mobile-development",
     component:MobileDevelopmentComponent
   },
-
-
+  {
+    path:"ios-development",
+    component:IosDevelopmentComponent
+  },
+  {
+    path:"devops",
+    component:DevopsComponent
+  },
   {
     path:"portfolio",
     component:PortfolioComponent
@@ -136,7 +130,6 @@ const routes: Routes = [
     path:"privacy-policy",
     component:PrivacyPolicyComponent
   },
-
   {
     path:"services",
     component:ServicesComponent
@@ -149,7 +142,6 @@ const routes: Routes = [
     path:"software-development",
     component:SoftwareDevelopmentComponent
   },
-
   {
     path:"team",
     component:TeamComponent
@@ -158,12 +150,10 @@ const routes: Routes = [
     path:"terms-and-conditions",
     component:TermConditionComponent
   },
-
   {
     path:"nijomee-training-cum-workshop-program",
     component:TrainingComponent
   },
-
   {
     path:"nijomee-internship-program-wings-for-kings",
     component:RegistrationComponent
@@ -177,6 +167,10 @@ const routes: Routes = [
     component:IotDevelopmentComponent
   },
   {
+    path:"sitemap",
+    component:SitemapComponent
+  },
+  {
     path:"uiux-designer",
     component:UiUxComponent
   },
@@ -188,6 +182,7 @@ const routes: Routes = [
 ...allCities.map(e=>({
   path:`top-uiux-designer-company-in-${e}`,
   component:UiUxComponent
+
 })),
 ...allCities.map(e=>({
   path:`best-uiux-designer-company-in-${e}`,
@@ -216,15 +211,32 @@ const routes: Routes = [
   component:MobileDevelopmentComponent
 })),
 ...allCities.map(e=>({
+  path:`best-app-development-company-in-${e}`,
+  component:MobileDevelopmentComponent
+})),
+...allCities.map(e=>({
   path:`mobile-app-development-company-in-${e}`,
   component:MobileDevelopmentComponent
 })),
+...allCities.map(e=>({
+  path:`best-mobile-app-development-company-in-${e}`,
+  component:MobileDevelopmentComponent
+})),
+
 ...allCities.map(e=>({
   path:`top-mobile-app-development-company-in-${e}`,
   component:MobileDevelopmentComponent
 })),
 ...allCities.map(e=>({
+  path:`android-app-development-company-in-${e}`,
+  component:MobileDevelopmentComponent
+})),
+...allCities.map(e=>({
   path:`top-android-app-development-company-in-${e}`,
+  component:MobileDevelopmentComponent
+})),
+...allCities.map(e=>({
+  path:`best-android-app-development-company-in-${e}`,
   component:MobileDevelopmentComponent
 })),
 
@@ -240,30 +252,19 @@ const routes: Routes = [
   path:`top-mobile-development-company-in-${e}`,
   component:MobileDevelopmentComponent
 })),
-...allCities.map(e=>({
-  path:`best-android-app-development-company-in-${e}`,
-  component:MobileDevelopmentComponent
-})),
-...allCities.map(e=>({
-  path:`best-mobile-app-development-company-in-${e}`,
-  component:MobileDevelopmentComponent
-})),
-...allCities.map(e=>({
-  path:`best-app-development-company-in-${e}`,
-  component:MobileDevelopmentComponent
-})),
+
 //IOS Development
 ...allCities.map(e=>({
   path:`ios-app-development-company-in-${e}`,
-  component:MobileDevelopmentComponent
+  component:IosDevelopmentComponent
 })),
 ...allCities.map(e=>({
   path:`best-ios-app-development-company-in-${e}`,
-  component:MobileDevelopmentComponent
+  component:IosDevelopmentComponent
 })),
 ...allCities.map(e=>({
   path:`top-ios-app-development-company-in-${e}`,
-  component:MobileDevelopmentComponent
+  component:IosDevelopmentComponent
 })),
 //Developer
 ...allCities.map(e=>({
@@ -311,6 +312,14 @@ const routes: Routes = [
   component:WebDevelopmentComponent
 })),
 ...allCities.map(e=>({
+  path:`best-web-development-company-in-${e}`,
+  component:WebDevelopmentComponent
+})),
+...allCities.map(e=>({
+  path:`top-web-development-company-in-${e}`,
+  component:WebDevelopmentComponent
+})),
+...allCities.map(e=>({
   path:`web-app-company-in-${e}`,
   component:WebDevelopmentComponent
 })),
@@ -334,18 +343,7 @@ const routes: Routes = [
   path:`top-web-app-development-company-in-${e}`,
   component:WebDevelopmentComponent
 })),
-...allCities.map(e=>({
-  path:`web-development-company-in-${e}`,
-  component:WebDevelopmentComponent
-})),
-...allCities.map(e=>({
-  path:`best-web-development-company-in-${e}`,
-  component:WebDevelopmentComponent
-})),
-...allCities.map(e=>({
-  path:`top-web-development-company-in-${e}`,
-  component:WebDevelopmentComponent
-})),
+
 //web Development
 //Software Development
 ...allCities.map(e=>({
@@ -400,7 +398,6 @@ const routes: Routes = [
   path:`top-industrial-trainning-and-internship-in-${e}`,
   component:RegistrationComponent
 })),
-
 {
   path:"astro-bazar",
   component:AstrobazarComponent

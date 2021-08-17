@@ -42,6 +42,10 @@ export const message =
   MobileDevHeader: "Robust & scalable Android app solutions",
   MobileDevMessage: "Egnite the power of speed & reliability. Introducing you rich Andriod mobile app solutions",
 
+
+  IOsDevHeader: "Robust & scalable Ios app solutions",
+  IOsDevMessage: "Egnite the power of speed & reliability. Introducing you rich IOs app solutions",
+
   CMSDevHeader: "Upgrade with next-gen management solutions",
   CMSDevMessage: "presenting you the most efficient & customized tools to tackle management issues.",
 
