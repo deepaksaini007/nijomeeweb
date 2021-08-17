@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
 
-
+    console.log(this.isMenuOpen)
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd && event.url) {
         const url = event.url;

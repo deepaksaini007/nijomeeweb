@@ -64,14 +64,14 @@
 
   <div class="container-fluid top-menubar-wrap">
       <nav class="top-menubar navbar navbar-expand-md">
-          <div id="mySidepanel" class="sidepanel" [ngClass]="isMenuOpen?'open':'close'">
-              <a routerLink="javascript:void(0)" class="closebtn" (click)="isMenuOpen=!isMenuOpen" >&times;</a>
+          <div class="sidepanel" [ngClass]="isMenuOpen?'open':'close'">
+              <a class="closebtn" (click)="isMenuOpen=!isMenuOpen" >&times;</a>
               <a routerLink="/index">Home</a>
               <a routerLink="/about-us">About Us</a>
               <a routerLink="/services">Services</a>
               <a routerLink="/portfolio">Portfolio</a>
-              <a routerLink="/team">Team</a>
-              <a routerLink="/career">Career</a>
+              <!-- <a routerLink="/team">Team</a> -->
+              <!-- <a routerLink="/career">Career</a> -->
               <a routerLink="/clients">Clients</a>
               <a routerLink="/contact">Contact us</a>
           </div>

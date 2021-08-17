@@ -819,6 +819,10 @@ h1 {
       display: block;
       margin: 0 auto;
   }
+  .testimonials-right
+  {
+    width: 100%;
+  }
     .all-services .services-sort a {
         border: 1px solid rgba(0,0,0,0.1);
         display: inline-block;
@@ -3119,7 +3123,10 @@ textarea.style-comment-box {
         width: 100%;
         margin-top: 50px;
     }
-
+    .all-services .services-sort
+    {
+      width: 100%;
+    }
     .assurance-section li {
         width: 50%;
         margin-bottom: 30px;
@@ -3256,9 +3263,12 @@ textarea.style-comment-box {
     .assurance-section li {
         width: 100%;
     }
-
+    .testimonials-right
+    {
+      width: 100%;
+    }
     .about-right-inner {
-        height: 280px;
+        height: 450px;
     }
 
     .about-right-sub-inner {
