@@ -11,12 +11,12 @@ on:
 
 env:
   AWS_REGION: "ap-south-1"
-  ECR_REPOSITORY: "dream-team-admin"
-  ECS_SERVICE: "dream-team-admin-service"
-  ECS_CLUSTER: "dream-team-admin"
+  ECR_REPOSITORY: "nijomeeweb"
+  ECS_SERVICE: "Nijomee-Web"
+  ECS_CLUSTER: "nijomee-web"
   ECS_TASK_DEFINITION: "./ecs-task.json"
 
-  CONTAINER_NAME: "dream-team"
+  CONTAINER_NAME: "nijomee-web-container"
 
 defaults:
   run:
