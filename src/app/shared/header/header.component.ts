@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
 
-
+    console.log(this.isMenuOpen)
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd && event.url) {
         const url = event.url;
@@ -97,6 +97,11 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = message.MobileDevHeader
           this.currentMessage = message.MobileDevMessage
         }
+        if (url.toString().includes('ios-development')) {
+          this.currentScroll = message.serviceScroll
+          this.currentHeading = message.IOsDevHeader
+          this.currentMessage = message.IOsDevHeader
+        }
         if (url.toString().includes('cms-development')) {
           this.currentScroll = message.serviceScroll
           this.currentHeading = message.CMSDevHeader
@@ -112,6 +117,11 @@ export class HeaderComponent implements OnInit {
           this.currentScroll = message.serviceScroll
           this.currentHeading = message.SoftwareDevHeader
           this.currentMessage = message.SoftWareDevMessage
+        }
+        if (url.toString().includes('moneyreel')) {
+          this.currentScroll = message.portfolioScroll
+          this.currentHeading = message.MoneyHeader
+          this.currentMessage = message.MoneyMessage
         }
         if (url.toString().includes('uiux-designer')) {
           this.currentScroll = message.serviceScroll

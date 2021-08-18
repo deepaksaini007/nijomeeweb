@@ -1,6 +1,6 @@
 export const allCities=
 ["haryana", "rohtak", "bhiwani","jind","chandigarh","bhadurgarh","hissar" ,"faridabad","hissar","panipat","sonipat","kurukshetra","sirsa","ambala","karnal","Jind",
-"canda","Surrey","vancouver","british-columbia"
+"canada","Surrey","vancouver","british-columbia"
 ]
 
 export const MetaList : MetaDetails[]=[
@@ -75,6 +75,12 @@ export const MetaList : MetaDetails[]=[
    },
    {
     metafor:'mobile-development',
+    keyword:'Best app development company in Rohtak, best software and mobile app development services, Best web development services in Rohtak, best software services company in Rohtak, software services companies in Rohtak, mobile app development company in Rohtak, top app development services in Haryana.',
+    description:'Be part of the best mobile app development company. Nijomee Technologies is the best android and ios mobile development company in Rohtak, Haryana. We have delivered top mobile app development solutions at the enterprise level. As the best mobile application development company, we have delivered large-scale solutions to our esteemed clients.',
+    title:'Android &amp; iOS App Development Company in Rohtak, India - Nijomee Technologies'
+   },
+   {
+    metafor:'ios-development',
     keyword:'Best app development company in Rohtak, best software and mobile app development services, Best web development services in Rohtak, best software services company in Rohtak, software services companies in Rohtak, mobile app development company in Rohtak, top app development services in Haryana.',
     description:'Be part of the best mobile app development company. Nijomee Technologies is the best android and ios mobile development company in Rohtak, Haryana. We have delivered top mobile app development solutions at the enterprise level. As the best mobile application development company, we have delivered large-scale solutions to our esteemed clients.',
     title:'Android &amp; iOS App Development Company in Rohtak, India - Nijomee Technologies'
@@ -192,6 +198,12 @@ export const MetaList : MetaDetails[]=[
     keyword:'',
     description:'',
     title:'Tarot Read - Nijomee Technologies'
+   },
+   {
+    metafor:'moneyreel',
+    keyword:'money reel, real money slots, moneyreels, money real long, ',
+    description:'',
+    title:'Money Reel - Nijomee Technologies'
    },
    {
     metafor:'tarot-teller',
