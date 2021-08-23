@@ -46,6 +46,10 @@ export const message =
   IOsDevHeader: "Robust & scalable Ios app solutions",
   IOsDevMessage: "Egnite the power of speed & reliability. Introducing you rich IOs app solutions",
 
+  DevopsHeader: "Enlight powerful computing & storage",
+  DevopsMessage: "cost effective . secure . reliable.",
+
+
   CMSDevHeader: "Upgrade with next-gen management solutions",
   CMSDevMessage: "presenting you the most efficient & customized tools to tackle management issues.",
 

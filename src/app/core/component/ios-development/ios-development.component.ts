@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { allCities } from '../utils/Seolist';
+import { allCities } from 'src/app/utils/Seolist';
+
 
 @Component({
   selector: 'app-ios-development',

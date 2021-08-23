@@ -98,6 +98,12 @@ export const MetaList : MetaDetails[]=[
     title:'Software Development Company in Rohtak, India - Nijomee Technologies'
    },
    {
+    metafor:'devops',
+    keyword:'what is devops, devops technology, devops definition, devops in cloud',
+    description:'Get the best infra management solution for your organization. With our seamless cloud services, get powerful computing and storage architecture. Nijomee Technologies is the top cloud services provider company in Rohtak – Haryana, providing the best cloud storage services to our clients.',
+    title:'Devops Company in Rohtak - Nijomee Technologies'
+   },
+   {
     metafor:'cloud-computing',
     keyword:'Best cloud service provider in Rohtak, cloud service provider in Rohtak, cloud computing services in Rohtak-Haryana, cloud storage providing company in Rohtak-Haryana, cloud storage services providing company in Rohtak-Haryana, cloud platform provider in Rohtak, infra management service provider in Rohtak, infra management solution provider,',
     description:'Get the best infra management solution for your organization. With our seamless cloud services, get powerful computing and storage architecture. Nijomee Technologies is the top cloud services provider company in Rohtak – Haryana, providing the best cloud storage services to our clients.',

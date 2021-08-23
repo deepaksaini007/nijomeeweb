@@ -74,8 +74,9 @@ import { CricteamComponent } from './core/component/cricteam/cricteam.component'
 import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
 import { SitemapComponent } from './core/component/sitemap/sitemap.component';
 import { MoneyReelComponent } from './core/component/money-reel/money-reel.component';
-import { IosDevelopmentComponent } from './ios-development/ios-development.component';
-import { DevopsComponent } from './devops/devops.component';
+import { IosDevelopmentComponent } from './core/component/ios-development/ios-development.component';
+import { DevopsComponent } from './core/component/devops/devops.component';
+
 
 
 @NgModule({

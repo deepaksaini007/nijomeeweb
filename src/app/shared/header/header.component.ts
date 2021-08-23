@@ -128,6 +128,11 @@ export class HeaderComponent implements OnInit {
           this.currentHeading = message.UIUXHeader
           this.currentMessage = message.UIUXMessage
         }
+        if (url.toString().includes('devops')) {
+          this.currentScroll = message.serviceScroll
+          this.currentHeading = message.DevopsHeader
+          this.currentMessage = message.DevopsMessage
+        }
         if (url.toString().includes('cloud-computing')) {
           this.currentScroll = message.serviceScroll
           this.currentHeading = message.CloudDevHeader
