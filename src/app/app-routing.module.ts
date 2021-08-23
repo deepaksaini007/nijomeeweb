@@ -13,6 +13,7 @@ import { CloudComputingComponent } from './core/component/cloud-computing/cloud-
 import { CmsDevelopmentComponent } from './core/component/cms-development/cms-development.component';
 import { ContactUsComponent } from './core/component/contact-us/contact-us.component';
 import { CricteamComponent } from './core/component/cricteam/cricteam.component';
+import { DevopsComponent } from './core/component/devops/devops.component';
 import { DigitalMarketingComponent } from './core/component/digital-marketing/digital-marketing.component';
 import { DreamteamComponent } from './core/component/dreamteam/dreamteam.component';
 import { EvergreenkartComponent } from './core/component/evergreenkart/evergreenkart.component';
@@ -49,7 +50,7 @@ import { TermConditionComponent } from './core/component/term-condition/term-con
 import { TrainingComponent } from './core/component/training/training.component';
 import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
 import { WebDevelopmentComponent } from './core/component/web-development/web-development.component';
-import { DevopsComponent } from './devops/devops.component';
+
 import { IosDevelopmentComponent } from './ios-development/ios-development.component';
 import { ErrorComponent } from './shared/error/error.component';
 import { blogTitle } from './utils/blogs';
