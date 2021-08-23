@@ -15,7 +15,6 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { HeaderComponent } from './shared/header/header.component';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { ServicesComponent } from './core/component/services/services.component';
-
 import { PortfolioComponent } from './core/component/portfolio/portfolio.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -74,7 +73,7 @@ import { CricteamComponent } from './core/component/cricteam/cricteam.component'
 import { UiUxComponent } from './core/component/ui-ux/ui-ux.component';
 import { SitemapComponent } from './core/component/sitemap/sitemap.component';
 import { MoneyReelComponent } from './core/component/money-reel/money-reel.component';
-import { IosDevelopmentComponent } from './core/component/ios-development/ios-development.component';
+import { IosDevelopmentComponent } from './ios-development/ios-development.component';
 import { DevopsComponent } from './core/component/devops/devops.component';
 
 
